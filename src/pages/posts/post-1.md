@@ -8,20 +8,51 @@ image:
     alt: 'The Astro logo on a dark background with a pink glow.'
 tags: ["astro", "blogging", "learning in public"]
 ---
-# My First Blog Post
+# Github
 
-Published on: 2022-07-01
+**Siii y tu Github?** 
 
-Welcome to my _new blog_ about learning Astro! Here, I will share my learning journey as I build a new website.
+Cosas que podría llegar a mostrar en Github ya que no tengo publicaciones
 
-## What I've accomplished
+- [ ]  Análisis de artículos cientificos y los procedimientos que usaron en Youtube
+- [ ]  Software, aplicando machine learning y estadistica , para materiales, o bioinformatics
+- [ ]  Artículos de revisión
+- [ ]  Notas de clases, con esquemas, que voy tomando de https://worldscienceu.com/lessons/1-1-building-on-the-building-blocks-of-life/
 
-1. **Installing Astro**: First, I created a new Astro project and set up my online accounts.
+**Buena Búsqueda en Google:** [github.io](http://github.io/) interests sensors, materials, bioelectronics, proteins
 
-2. **Making Pages**: I then learned how to make pages by creating new `.astro` files and placing them in the `src/pages/` folder.
+---
 
-3. **Making Blog Posts**: This is my first blog post! I now have Astro pages and Markdown posts!
+## Secciones
 
-## What's next
+1. Home - My primary interests are Biosensors - Material, Technologies - Fabrication & Transduction Mechanism. I’m also interested in Novel Biosensor Architectures, Biophysics, Applied Econometrics, Big Data, and Machine Learning.
+2. CV
+3. Teaching : Youtube / Class Notes}
+4. Software
+5. Blog - Mi opinion and My arguments - Where I become creative.
 
-I will finish the Astro tutorial, and then keep adding more posts. Watch this space for more to come.
+---
+
+## References
+
+https://borges-blog.github.io/about-us/
+
+https://ignaciomsarmiento.github.io/index.html
+
+https://songdj.github.io/publication/sar-22/sar-22.pdf
+
+http://aaronguan.com/
+
+---
+
+Dividamos la creación de sensores
+
+[¿Para qué se utiliza Bioinformatics en sensores? (1)](https://www.notion.so/Para-qu-se-utiliza-Bioinformatics-en-sensores-1-7adb5f127fd44068abcf2081cd8f343d?pvs=21)
+
+- ¿Qué tipos de sensores hay?
+- ¿De que material están hechos?¿Por qué están hechos de ese material?
+- ¿Qué tecnicas y tecnologías se usaron para evaluar las propiedades de ese material?
+- ¿Cómo hicieron para luego capturar las señales de esos sensores?
+- ¿Cómo hicieron para que arrojaran medidas coherentes, poco cambiantes?
+    
+    ![Captura de Pantalla 2022-11-14 a la(s) 3.58.21 p.m..png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/ccf6cdc5-a207-47b4-ab72-267018e535d6/Captura_de_Pantalla_2022-11-14_a_la(s)_3.58.21_p.m..png)
