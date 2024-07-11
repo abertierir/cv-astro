@@ -55,4 +55,3 @@ Dividamos la creación de sensores
 - ¿Cómo hicieron para luego capturar las señales de esos sensores?
 - ¿Cómo hicieron para que arrojaran medidas coherentes, poco cambiantes?
     
-    ![Captura de Pantalla 2022-11-14 a la(s) 3.58.21 p.m..png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/ccf6cdc5-a207-47b4-ab72-267018e535d6/Captura_de_Pantalla_2022-11-14_a_la(s)_3.58.21_p.m..png)
