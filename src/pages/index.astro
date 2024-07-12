@@ -2,6 +2,7 @@
 import Navigation from '../components/Navigation.astro';
 const skills = ["HTML", "CSS", "JavaScript", "React", "Astro", "Writing Docs"];
 const skillColor = "navy"
+import Footer from '../components/Footer.astro';
 ---
 
 <html lang="en">
@@ -30,5 +31,6 @@ const skillColor = "navy"
 		<ul>
   			{skills.map((skill) => <li class="skill">{skill}</li>)}
 		</ul>
+		<Footer/>
 	</body>
 </html>
