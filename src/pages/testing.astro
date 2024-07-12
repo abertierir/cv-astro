@@ -1,0 +1,129 @@
+---
+
+---
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Custom Packaging Company</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css">
+    <style>
+        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem; }
+        .container { padding: 2rem; }
+        .center { text-align: center; }
+        .color-picker { width: 100%; height: 2rem; margin-top: 0.5rem; }
+    </style>
+</head>
+<body>
+    <nav class="container-fluid">
+        <ul>
+            <li><strong>Custom Packaging Company</strong></li>
+        </ul>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#select-packaging">Select Packaging</a></li>
+            <li><a href="#contact" role="button">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main class="container" id="home">
+        <div class="grid">
+            <section class="center">
+                <hgroup>
+                    <h2>Welcome to Custom Packaging Company</h2>
+                    <h3>Expertise in Custom Packaging</h3>
+                </hgroup>
+                <p>Your one-stop solution for printing and assembling custom packaging for products and shipments.</p>
+                <figure>
+                    <img src="https://source.unsplash.com/collection/1081461/800x600" alt="Packaging examples" />
+                    <figcaption><a href="https://unsplash.com" target="_blank">Image Source: Unsplash</a></figcaption>
+                </figure>
+            </section>
+        </div>
+    </main>
+
+    <main class="container" id="select-packaging">
+        <div class="grid">
+            <section>
+                <hgroup>
+                    <h2>Customize Your Packaging</h2>
+                    <h3>Follow the steps below to create your perfect packaging</h3>
+                </hgroup>
+
+                <h3>Step 1: Choose Packaging Type</h3>
+                <p>
+                    <select id="packaging-type">
+                        <option value="small-box">Small Box</option>
+                        <option value="medium-box">Medium Box</option>
+                        <option value="large-box">Large Box</option>
+                        <option value="paper-bag">Paper Bag</option>
+                    </select>
+                </p>
+
+                <h3>Step 2: Enter Dimensions</h3>
+                <p>
+                    <label for="length">Length:</label>
+                    <input type="number" id="length" name="length" placeholder="Length" required>
+                    <label for="width">Width:</label>
+                    <input type="number" id="width" name="width" placeholder="Width" required>
+                    <label for="height">Height:</label>
+                    <input type="number" id="height" name="height" placeholder="Height" required>
+                </p>
+
+                <h3>Step 3: Select Color</h3>
+                <p>
+                    <input type="color" id="color" name="color" class="color-picker" required>
+                </p>
+
+                <h3>Step 4: Logo Customization</h3>
+                <p>
+                    <label for="logo-upload">Upload Logo:</label>
+                    <input type="file" id="logo-upload" name="logo-upload" accept="image/*" required>
+                    <label for="logo-position">Logo Position:</label>
+                    <input type="text" id="logo-position" name="logo-position" placeholder="e.g., Center" required>
+                    <label for="logo-size">Logo Size:</label>
+                    <input type="text" id="logo-size" name="logo-size" placeholder="e.g., 3x3 inches" required>
+                </p>
+
+                <h3>Step 5: Enter Quantity</h3>
+                <p>
+                    <label for="quantity">Quantity:</label>
+                    <input type="number" id="quantity" name="quantity" placeholder="Number of units" required>
+                </p>
+
+                <button type="button" onclick="calculatePrice()">Get a Quote</button>
+
+                <h3>Price Calculation</h3>
+                <p id="price-breakdown"></p>
+            </section>
+        </div>
+    </main>
+
+    <section aria-label="Subscribe example">
+        <div class="container">
+            <article>
+                <hgroup>
+                    <h2>Stay Updated</h2>
+                    <h3>Subscribe to our newsletter for the latest updates</h3>
+                </hgroup>
+                <form class="grid">
+                    <input type="text" id="firstname" name="firstname" placeholder="First Name" aria-label="First Name" required>
+                    <input type="email" id="email" name="email" placeholder="Email Address" aria-label="Email Address" required>
+                    <button type="submit" onclick="event.preventDefault()">Subscribe</button>
+                </form>
+            </article>
+        </div>
+    </section>
+
+    <footer class="container">
+        <small><a href="#home">Home</a> • <a href="#select-packaging">Select Packaging</a> • <a href="#contact">Contact</a></small>
+    </footer>
+
+    <script>
+        function calculatePrice() {
+            // Price calculation logic goes here
+            document.getElementById('price-breakdown').innerText = 'Total Price: $XX.XX\nBreakdown: ...';
+        }
+    </script>
+</body>
+</html>
